@@ -94,13 +94,13 @@ For local development without Docker:
 
 An AWS S3 bucket is used to store datasets collected with this tool so that it can be easily accessed by all collaborators. After cloning this repo, create a `.env` file in the sub-directory `speed-test-analysisookla-capture-tool/test-execution/.env`. The `.env` file should have the following credentials:
 
-`AWS_ACCESS_KEY_ID=<key_id>
+ AWS_ACCESS_KEY_ID=
 
- AWS_SECRET_ACCESS_KEY=<access_key>
+ AWS_SECRET_ACCESS_KEY=
 
- AWS_DEFAULT_REGION=<region>
+ AWS_DEFAULT_REGION=
 
- S3_BUCKET_NAME=<bucket_name>`
+ S3_BUCKET_NAME=
 
 
 ### Repository Organization
